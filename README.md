@@ -15,6 +15,6 @@ It is a assumed the system has the following:
 - kitty
 - papirus-dark icon theme
 - feh
-- stow is recommended
+- stow (recommended)
 
-Note that Firefox can use the [Catppuccin Mocha - Mauve](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-mauve-git/)
+Note that Firefox can use the [Catppuccin Mocha - Mauve](https://addons.mozilla.org/en-US/firefox/addon/catppuccin-mocha-mauve-git/) theme.
