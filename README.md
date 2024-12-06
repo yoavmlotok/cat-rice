@@ -1,9 +1,10 @@
-#Cat Rice
+# Cat Rice
 This repository contains my dotfiles.
 The base theme is the catppuccin mocha theme.
-[Preview Image](preview.png)
 
-##Dependencies
+![Preview Image](preview.png)
+
+## Dependencies
 It is a assumed the system has the following:
 - i3
 - i3lock-color
