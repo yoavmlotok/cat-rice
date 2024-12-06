@@ -1,13 +1,14 @@
 #!/bin/sh
 
-BLANK='#cba6f7d8'
-CLEAR='#ffffff22'
+BLANK='#cba6f788'
+CLEAR='#cba6f788'
 DEFAULT='#1e1e2ed8'
 TEXT='#ffffffff'
 WRONG='#f38ba8bb'
 VERIFYING='#a6e3a1e6'
 
 i3lock \
+  --radius 120 \
   --insidever-color=$CLEAR \
   --ringver-color=$VERIFYING \
   \
@@ -20,7 +21,9 @@ i3lock \
   --separator-color=$DEFAULT \
   \
   --verif-color=$TEXT \
+  --verif-font="FiraCode Nerd Font" \
   --wrong-color=$TEXT \
+  --wrong-font="FiraCode Nerd Font" \
   --time-color=$TEXT \
   --date-color=$TEXT \
   --layout-color=$TEXT \
@@ -32,4 +35,6 @@ i3lock \
   --clock \
   --indicator \
   --time-str="%H:%M:%S" \
-  --date-str="%d/%m/%Y"
+  --time-font="FiraCode Nerd Font" \
+  --date-str="%d/%m/%Y" \
+  --date-font="FiraCode Nerd Font"
